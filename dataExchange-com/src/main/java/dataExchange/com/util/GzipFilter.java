@@ -1,4 +1,4 @@
-package bhz.com.util;
+package dataExchange.com.util;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -26,7 +26,7 @@ public class GzipFilter implements Filter {
      * 
      * @param fConfig 过滤器配置
      * @throws ServletException Servlet异常
-     * @see javax.servlet.Filter#init(javax.servlet.FilterConfig)
+     * @see Filter#init(FilterConfig)
      */
     public void init(FilterConfig fConfig) throws ServletException {
         String param = fConfig.getInitParameter(PARAM_KEY_HEADERS);
@@ -59,8 +59,8 @@ public class GzipFilter implements Filter {
      * @param chain 过滤器链
      * @throws IOException IO异常
      * @throws ServletException Servlet异常
-     * @see javax.servlet.Filter#doFilter(javax.servlet.ServletRequest,
-     *      javax.servlet.ServletResponse, javax.servlet.FilterChain)
+     * @see Filter#doFilter(ServletRequest,
+     *      ServletResponse, FilterChain)
      */
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException,
             ServletException {
@@ -77,7 +77,7 @@ public class GzipFilter implements Filter {
      * <B>方法名称：</B>释放资源<BR>
      * <B>概要说明：</B>释放过滤器资源<BR>
      * 
-     * @see javax.servlet.Filter#destroy()
+     * @see Filter#destroy()
      */
     public void destroy() {
         this.headers.clear();

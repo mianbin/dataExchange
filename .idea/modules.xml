@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dataExchange.iml" filepath="$PROJECT_DIR$/dataExchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataExchange-com/dataExchange-com.iml" filepath="$PROJECT_DIR$/dataExchange-com/dataExchange-com.iml" />
       <module fileurl="file://$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" filepath="$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataExchange-sys-facade/dataExchange-sys-facade.iml" filepath="$PROJECT_DIR$/dataExchange-sys-facade/dataExchange-sys-facade.iml" />
     </modules>
   </component>
 </project>

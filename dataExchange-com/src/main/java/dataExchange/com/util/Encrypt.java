@@ -1,4 +1,4 @@
-package bhz.com.util;
+package dataExchange.com.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

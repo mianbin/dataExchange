@@ -9,22 +9,27 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dataExchange-sys</artifactId>
     <packaging>war</packaging>
-    <name>dataExchange-sys Maven Webapp</name>
+    <name>dataExchange-sys</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
+        <dependency>
+            <groupId>dataExchange</groupId>
+            <artifactId>dataExchange-com</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dataExchange</groupId>
+            <artifactId>dataExchange-sys-facade</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>5.2.4.Final</version>
         </dependency>
-
-
     </dependencies>
-
-
-
     <build>
         <finalName>dataExchange-sys</finalName>
         <plugins>

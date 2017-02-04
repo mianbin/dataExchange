@@ -20,6 +20,7 @@ public class SysIndexController {
     public String index(ModelMap views){
         UserTest userTestById = sysIndexService.getUserTestById(1);
         views.addAttribute("userTest",userTestById);
+
         return "sysindex";
     }
 

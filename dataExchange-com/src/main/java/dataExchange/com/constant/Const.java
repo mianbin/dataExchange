@@ -1,4 +1,4 @@
-package bhz.com.constant;
+package dataExchange.com.constant;
 
 public final class Const {
 
