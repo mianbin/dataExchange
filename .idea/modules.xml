@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataExchange.iml" filepath="$PROJECT_DIR$/dataExchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" filepath="$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" />
+    </modules>
+  </component>
+</project>

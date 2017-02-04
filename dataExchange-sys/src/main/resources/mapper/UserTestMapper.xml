@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sys.dao.UserTestDao">
+
+<select id="queryById" parameterType="int" resultType="org.sys.entity.UserTest">
+    SELECT * FROM  user_test WHERE  id = #{id}
+</select>
+
+</mapper>

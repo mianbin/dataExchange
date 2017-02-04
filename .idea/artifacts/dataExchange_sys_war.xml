@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dataExchange-sys:war">
+    <output-path>$PROJECT_DIR$/dataExchange-sys/target</output-path>
+    <root id="archive" name="dataExchange-sys.war">
+      <element id="artifact" artifact-name="dataExchange-sys:war exploded" />
+    </root>
+  </artifact>
+</component>
