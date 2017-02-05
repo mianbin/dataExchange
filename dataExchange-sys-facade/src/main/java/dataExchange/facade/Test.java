@@ -1,6 +1,7 @@
 package dataExchange.facade;
 
-import dataExchange.com.constant.Const;
+
+import dataExchange.Const;
 
 /**
  * Created by Administrator on 2017-02-04.

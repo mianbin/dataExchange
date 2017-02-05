@@ -36,7 +36,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="dataExchange-com" />
+      </profile>
+      <profile default="false" name="Annotation profile for dataExchange-sys-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +49,7 @@
       <module name="dataExchange-com" target="1.8" />
       <module name="dataExchange-sys" target="1.8" />
       <module name="dataExchange-sys-facade" target="1.8" />
+      <module name="dataExchange-sys-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

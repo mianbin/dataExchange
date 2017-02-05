@@ -1,4 +1,4 @@
-package dataExchange.com.util;
+package dataExchange;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

@@ -1,5 +1,6 @@
 package org.sys.web;
 
+import dataExchange.Const;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -20,7 +21,7 @@ public class SysIndexController {
     public String index(ModelMap views){
         UserTest userTestById = sysIndexService.getUserTestById(1);
         views.addAttribute("userTest",userTestById);
-
+        views.addAttribute("constant",Const.CHARSET_CHINESE);
         return "sysindex";
     }
 

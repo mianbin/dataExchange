@@ -9,6 +9,7 @@
     <module>dataExchange-sys</module>
     <module>dataExchange-sys-facade</module>
     <module>dataExchange-com</module>
+    <module>dataExchange-sys-service</module>
   </modules>
   <packaging>pom</packaging>
 

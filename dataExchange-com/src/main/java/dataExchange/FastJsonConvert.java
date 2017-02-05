@@ -1,4 +1,4 @@
-package dataExchange.com.util;
+package dataExchange;
 
 import java.util.ArrayList;
 import java.util.List;

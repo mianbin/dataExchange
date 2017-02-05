@@ -1,4 +1,4 @@
-package dataExchange.com.util;
+package dataExchange;
 
 import java.io.IOException;
 import java.util.HashMap;

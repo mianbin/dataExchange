@@ -7,6 +7,12 @@
           <element id="module-output" name="dataExchange-sys" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="dataExchange-sys-facade-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dataExchange-sys-facade" />
+          </element>
+          <element id="archive" name="dataExchange-com-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dataExchange-com" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />

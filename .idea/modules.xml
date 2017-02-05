@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/dataExchange-com/dataExchange-com.iml" filepath="$PROJECT_DIR$/dataExchange-com/dataExchange-com.iml" />
       <module fileurl="file://$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" filepath="$PROJECT_DIR$/dataExchange-sys/dataExchange-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/dataExchange-sys-facade/dataExchange-sys-facade.iml" filepath="$PROJECT_DIR$/dataExchange-sys-facade/dataExchange-sys-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataExchange-sys-service/dataExchange-sys-service.iml" filepath="$PROJECT_DIR$/dataExchange-sys-service/dataExchange-sys-service.iml" />
     </modules>
   </component>
 </project>

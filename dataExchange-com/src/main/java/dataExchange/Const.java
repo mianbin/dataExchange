@@ -1,4 +1,4 @@
-package dataExchange.com.constant;
+package dataExchange;
 
 public final class Const {
 
